@@ -1,0 +1,1 @@
+document.getElementById('prediction-form')?.addEventListener('submit',function(){const b=this.querySelector('button[type=submit]');b.disabled=true;b.querySelector('.normal').classList.add('d-none');b.querySelector('.loading').classList.remove('d-none')});

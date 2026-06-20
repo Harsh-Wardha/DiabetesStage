@@ -1,0 +1,44 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.6301107557064212,
+    "balanced_accuracy": 0.5088379068106073,
+    "macro_precision": 0.4471131404486828,
+    "macro_recall": 0.5088379068106073,
+    "macro_f1": 0.4259569556541003,
+    "weighted_precision": 0.8359102774168189,
+    "weighted_recall": 0.6301107557064212,
+    "weighted_f1": 0.703382781633196,
+    "training_time_seconds": 1.7790133999660611,
+    "average_prediction_time_ms": 0.0021222381787962103,
+    "roc_auc_ovr_macro": 0.7582180958513506,
+    "artifact_size_bytes": 2026
+  },
+  "decision_tree": {
+    "accuracy": 0.5574994016145527,
+    "balanced_accuracy": 0.49526585993069233,
+    "macro_precision": 0.43811135089321135,
+    "macro_recall": 0.49526585993069233,
+    "macro_f1": 0.3945415808048198,
+    "weighted_precision": 0.8371741450406839,
+    "weighted_recall": 0.5574994016145527,
+    "weighted_f1": 0.6462366493375762,
+    "training_time_seconds": 2.1148594999685884,
+    "average_prediction_time_ms": 0.0019981743802044752,
+    "roc_auc_ovr_macro": 0.722476034880319,
+    "artifact_size_bytes": 70360
+  },
+  "hist_gradient_boosting": {
+    "accuracy": 0.6107013077441956,
+    "balanced_accuracy": 0.5130457161633211,
+    "macro_precision": 0.44711726036086546,
+    "macro_recall": 0.5130457161633211,
+    "macro_f1": 0.42007771949010064,
+    "weighted_precision": 0.8399009433140251,
+    "weighted_recall": 0.6107013077441957,
+    "weighted_f1": 0.6890118311266912,
+    "training_time_seconds": 8.162763500004075,
+    "average_prediction_time_ms": 0.01747400178445646,
+    "roc_auc_ovr_macro": 0.7530236329012622,
+    "artifact_size_bytes": 164030
+  }
+}

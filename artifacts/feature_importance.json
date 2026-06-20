@@ -1,0 +1,200 @@
+{
+  "logistic_regression": [
+    {
+      "feature": "GenHlth",
+      "importance": 0.21836910452959546
+    },
+    {
+      "feature": "Age",
+      "importance": 0.20318448688660137
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.20076907158311588
+    },
+    {
+      "feature": "HighChol",
+      "importance": 0.12488859630481464
+    },
+    {
+      "feature": "HighBP",
+      "importance": 0.1208610141593361
+    },
+    {
+      "feature": "CholCheck",
+      "importance": 0.09269610291610546
+    },
+    {
+      "feature": "HvyAlcoholConsump",
+      "importance": 0.07564396117009507
+    },
+    {
+      "feature": "MentHlth",
+      "importance": 0.04275281589321284
+    },
+    {
+      "feature": "HeartDiseaseorAttack",
+      "importance": 0.03832198626453551
+    },
+    {
+      "feature": "PhysHlth",
+      "importance": 0.02358098285050889
+    },
+    {
+      "feature": "Stroke",
+      "importance": 0.018445303105906127
+    },
+    {
+      "feature": "DiffWalk",
+      "importance": 0.016876176657387512
+    },
+    {
+      "feature": "Fruits",
+      "importance": 0.009123732231026116
+    },
+    {
+      "feature": "Smoker",
+      "importance": 0.008716048997643368
+    },
+    {
+      "feature": "Veggies",
+      "importance": 0.008584835800826068
+    },
+    {
+      "feature": "PhysActivity",
+      "importance": 0.006130453330802457
+    }
+  ],
+  "decision_tree": [
+    {
+      "feature": "HighBP",
+      "importance": 0.23127997705349695
+    },
+    {
+      "feature": "GenHlth",
+      "importance": 0.1771204863581265
+    },
+    {
+      "feature": "Age",
+      "importance": 0.15755467676677093
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.15598596134536657
+    },
+    {
+      "feature": "PhysHlth",
+      "importance": 0.06722220082401055
+    },
+    {
+      "feature": "MentHlth",
+      "importance": 0.05620492424025576
+    },
+    {
+      "feature": "HighChol",
+      "importance": 0.047178783097281185
+    },
+    {
+      "feature": "HvyAlcoholConsump",
+      "importance": 0.016341319620152797
+    },
+    {
+      "feature": "Fruits",
+      "importance": 0.015653024856391244
+    },
+    {
+      "feature": "Smoker",
+      "importance": 0.01491873833898847
+    },
+    {
+      "feature": "HeartDiseaseorAttack",
+      "importance": 0.013195913676967708
+    },
+    {
+      "feature": "DiffWalk",
+      "importance": 0.013190199017634727
+    },
+    {
+      "feature": "PhysActivity",
+      "importance": 0.009916586365370692
+    },
+    {
+      "feature": "Veggies",
+      "importance": 0.009533393702771134
+    },
+    {
+      "feature": "Stroke",
+      "importance": 0.00738325438200445
+    },
+    {
+      "feature": "CholCheck",
+      "importance": 0.0073205603544103095
+    }
+  ],
+  "hist_gradient_boosting": [
+    {
+      "feature": "GenHlth",
+      "importance": 0.03414949133436307
+    },
+    {
+      "feature": "Age",
+      "importance": 0.02318254524058368
+    },
+    {
+      "feature": "BMI",
+      "importance": 0.01778576205785576
+    },
+    {
+      "feature": "HighBP",
+      "importance": 0.013674742204289972
+    },
+    {
+      "feature": "HighChol",
+      "importance": 0.005590027699721538
+    },
+    {
+      "feature": "HeartDiseaseorAttack",
+      "importance": 0.004624814640113402
+    },
+    {
+      "feature": "DiffWalk",
+      "importance": 0.002615430730681212
+    },
+    {
+      "feature": "MentHlth",
+      "importance": 0.0013732266999833358
+    },
+    {
+      "feature": "CholCheck",
+      "importance": 0.0013433328408136158
+    },
+    {
+      "feature": "PhysActivity",
+      "importance": 0.001319810465339688
+    },
+    {
+      "feature": "HvyAlcoholConsump",
+      "importance": 0.000870278548354031
+    },
+    {
+      "feature": "Veggies",
+      "importance": 0.000584538033523078
+    },
+    {
+      "feature": "Fruits",
+      "importance": 0.0004395517911276829
+    },
+    {
+      "feature": "PhysHlth",
+      "importance": 0.00030197052572668764
+    },
+    {
+      "feature": "Stroke",
+      "importance": -0.0003438733537671583
+    },
+    {
+      "feature": "Smoker",
+      "importance": -0.0013826584583960615
+    }
+  ]
+}

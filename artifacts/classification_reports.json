@@ -1,0 +1,101 @@
+{
+  "logistic_regression": {
+    "No Diabetes Pattern": {
+      "precision": 0.941686245811347,
+      "recall": 0.6431916236977796,
+      "f1-score": 0.7643298163345057,
+      "support": 38012.0
+    },
+    "Prediabetes Pattern": {
+      "precision": 0.030299457675076632,
+      "recall": 0.2775377969762419,
+      "f1-score": 0.0546343537414966,
+      "support": 926.0
+    },
+    "Diabetes Pattern": {
+      "precision": 0.36935371785962473,
+      "recall": 0.6057842997578002,
+      "f1-score": 0.45890669688629865,
+      "support": 7019.0
+    },
+    "accuracy": 0.6301107557064212,
+    "macro avg": {
+      "precision": 0.4471131404486828,
+      "recall": 0.5088379068106073,
+      "f1-score": 0.4259569556541003,
+      "support": 45957.0
+    },
+    "weighted avg": {
+      "precision": 0.8359102774168189,
+      "recall": 0.6301107557064212,
+      "f1-score": 0.703382781633196,
+      "support": 45957.0
+    }
+  },
+  "decision_tree": {
+    "No Diabetes Pattern": {
+      "precision": 0.9490319675821702,
+      "recall": 0.5545091023887193,
+      "f1-score": 0.7000099631363953,
+      "support": 38012.0
+    },
+    "Prediabetes Pattern": {
+      "precision": 0.027022206367609027,
+      "recall": 0.32721382289416845,
+      "f1-score": 0.04992173984677486,
+      "support": 926.0
+    },
+    "Diabetes Pattern": {
+      "precision": 0.3382798787298548,
+      "recall": 0.6040746545091893,
+      "f1-score": 0.43369303943128934,
+      "support": 7019.0
+    },
+    "accuracy": 0.5574994016145527,
+    "macro avg": {
+      "precision": 0.43811135089321135,
+      "recall": 0.49526585993069233,
+      "f1-score": 0.3945415808048198,
+      "support": 45957.0
+    },
+    "weighted avg": {
+      "precision": 0.8371741450406839,
+      "recall": 0.5574994016145527,
+      "f1-score": 0.6462366493375762,
+      "support": 45957.0
+    }
+  },
+  "hist_gradient_boosting": {
+    "No Diabetes Pattern": {
+      "precision": 0.9476067270375161,
+      "recall": 0.6166473745133116,
+      "f1-score": 0.7471154459106266,
+      "support": 38012.0
+    },
+    "Prediabetes Pattern": {
+      "precision": 0.030329195898542903,
+      "recall": 0.30345572354211664,
+      "f1-score": 0.055146698066921795,
+      "support": 926.0
+    },
+    "Diabetes Pattern": {
+      "precision": 0.3634158581465373,
+      "recall": 0.6190340504345349,
+      "f1-score": 0.4579710144927536,
+      "support": 7019.0
+    },
+    "accuracy": 0.6107013077441956,
+    "macro avg": {
+      "precision": 0.44711726036086546,
+      "recall": 0.5130457161633211,
+      "f1-score": 0.42007771949010064,
+      "support": 45957.0
+    },
+    "weighted avg": {
+      "precision": 0.8399009433140251,
+      "recall": 0.6107013077441957,
+      "f1-score": 0.6890118311266912,
+      "support": 45957.0
+    }
+  }
+}

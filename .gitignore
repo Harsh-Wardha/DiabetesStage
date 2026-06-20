@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dataset/raw/*.csv
+dataset/processed/*.csv
+diabetes_012_health_indicators_BRFSS2015.csv
+training.*.log

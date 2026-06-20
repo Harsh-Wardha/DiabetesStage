@@ -1,0 +1,26 @@
+{
+  "feature_order": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "BMI",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "GenHlth",
+    "MentHlth",
+    "PhysHlth",
+    "DiffWalk",
+    "Age"
+  ],
+  "target": "Diabetes_012",
+  "class_mapping": {
+    "0": "No Diabetes Pattern",
+    "1": "Prediabetes Pattern",
+    "2": "Diabetes Pattern"
+  }
+}

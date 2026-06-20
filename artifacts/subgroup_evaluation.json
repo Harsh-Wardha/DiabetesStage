@@ -1,0 +1,34 @@
+{
+  "note": "Subgroup results depend on dataset composition and are not evidence of clinical fairness.",
+  "groups": {
+    "Sex": {
+      "0.0": {
+        "records": 25657,
+        "macro_f1": 0.42711497191682213,
+        "balanced_accuracy": 0.5201274770230162
+      },
+      "1.0": {
+        "records": 20300,
+        "macro_f1": 0.4242543447819895,
+        "balanced_accuracy": 0.49499647316550366
+      }
+    },
+    "Broad age": {
+      "18-44": {
+        "records": 9866,
+        "macro_f1": 0.4342957325027465,
+        "balanced_accuracy": 0.47130447559593763
+      },
+      "45-64": {
+        "records": 19489,
+        "macro_f1": 0.4363154588750023,
+        "balanced_accuracy": 0.5081001305614854
+      },
+      "65+": {
+        "records": 16602,
+        "macro_f1": 0.3543159110747561,
+        "balanced_accuracy": 0.4531459851604213
+      }
+    }
+  }
+}

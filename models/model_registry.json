@@ -1,0 +1,101 @@
+{
+  "logistic_regression": {
+    "display_name": "Logistic Regression",
+    "artifact_filename": "logistic_regression.joblib",
+    "macro_f1": 0.4259569556541003,
+    "training_timestamp": "2026-06-19T22:50:09.483543+00:00",
+    "scikit_learn_version": "1.9.0",
+    "python_version": "3.13.14",
+    "feature_order": [
+      "HighBP",
+      "HighChol",
+      "CholCheck",
+      "BMI",
+      "Smoker",
+      "Stroke",
+      "HeartDiseaseorAttack",
+      "PhysActivity",
+      "Fruits",
+      "Veggies",
+      "HvyAlcoholConsump",
+      "GenHlth",
+      "MentHlth",
+      "PhysHlth",
+      "DiffWalk",
+      "Age"
+    ],
+    "target_class_mapping": {
+      "0": "No Diabetes Pattern",
+      "1": "Prediabetes Pattern",
+      "2": "Diabetes Pattern"
+    },
+    "artifact_size_bytes": 2026,
+    "is_best_model": true
+  },
+  "decision_tree": {
+    "display_name": "Decision Tree",
+    "artifact_filename": "decision_tree.joblib",
+    "macro_f1": 0.3945415808048198,
+    "training_timestamp": "2026-06-19T22:50:09.483543+00:00",
+    "scikit_learn_version": "1.9.0",
+    "python_version": "3.13.14",
+    "feature_order": [
+      "HighBP",
+      "HighChol",
+      "CholCheck",
+      "BMI",
+      "Smoker",
+      "Stroke",
+      "HeartDiseaseorAttack",
+      "PhysActivity",
+      "Fruits",
+      "Veggies",
+      "HvyAlcoholConsump",
+      "GenHlth",
+      "MentHlth",
+      "PhysHlth",
+      "DiffWalk",
+      "Age"
+    ],
+    "target_class_mapping": {
+      "0": "No Diabetes Pattern",
+      "1": "Prediabetes Pattern",
+      "2": "Diabetes Pattern"
+    },
+    "artifact_size_bytes": 70360,
+    "is_best_model": false
+  },
+  "hist_gradient_boosting": {
+    "display_name": "Histogram Gradient Boosting",
+    "artifact_filename": "hist_gradient_boosting.joblib",
+    "macro_f1": 0.42007771949010064,
+    "training_timestamp": "2026-06-19T22:50:09.483543+00:00",
+    "scikit_learn_version": "1.9.0",
+    "python_version": "3.13.14",
+    "feature_order": [
+      "HighBP",
+      "HighChol",
+      "CholCheck",
+      "BMI",
+      "Smoker",
+      "Stroke",
+      "HeartDiseaseorAttack",
+      "PhysActivity",
+      "Fruits",
+      "Veggies",
+      "HvyAlcoholConsump",
+      "GenHlth",
+      "MentHlth",
+      "PhysHlth",
+      "DiffWalk",
+      "Age"
+    ],
+    "target_class_mapping": {
+      "0": "No Diabetes Pattern",
+      "1": "Prediabetes Pattern",
+      "2": "Diabetes Pattern"
+    },
+    "artifact_size_bytes": 164030,
+    "is_best_model": false
+  }
+}

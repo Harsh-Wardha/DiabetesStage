@@ -1,0 +1,6 @@
+{
+  "model_key": "logistic_regression",
+  "display_name": "Logistic Regression",
+  "selection_metric": "macro_f1",
+  "macro_f1": 0.4259569556541003
+}
